@@ -15,7 +15,7 @@ class Apollo(PayloadType):
     ]
     version = "1.2.1"
     wrapper = False
-    wrapped_payloads = ["service_wrapper"]
+    wrapped_payloads = ["service_wrapper", "scarecrow_wrapper"]
     note = """
 A fully featured .NET 4.0 compatible training agent. Version: {}
     """.format(version)
